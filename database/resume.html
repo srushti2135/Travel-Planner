@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --bg-color:white;
+            --text-color:black;
+            --primary-color:#2a9df4;
+            --secondary-color:#f0f0f0;
+
+        }
+        body{
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            transition: all 0.3s ease-in-out;
+        }
+        .resume{
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: var(--secondary-color);
+            border-radius: 10px;
+            box-shadow: 0 8px 20px black;
+        }
+        .header{
+            text-align: center;
+            margin-bottom: 30px;
+
+        }
+        .header h1{
+            margin: 0;
+            font-size: 2.8em;
+            color: var(--primary-color)
+        }
+        .header .subtitle{
+            font-size: 1.3em;
+            margin-top: 8px;
+            color: var(--text-color);
+        }
+        section{
+            margin-bottom: 25px;
+
+        }
+        section h2{
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            color: var(--primary-color);
+        }
+        .skill-list .experience-item ul{
+            padding-left: 20px;
+
+        }
+        .skill-list li, .experience-item li
+        {
+            margin-bottom: 15px;
+        }
+        .project-item, .experience-item
+        {
+            margin-bottom: 15px;
+        }
+        @media (max-width :600px)
+        {
+            .resume
+            {
+                padding: 20px;
+
+            }
+            .header h1 
+            {
+                font-size: 2em;
+            }
+            .header .subtitle
+            {
+                font-size: 1.1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume">
+        <header class="header">
+            <h1>Srushti More</h1>
+            <p class="subtitle">React Js Developer</p>
+        </header>
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <p>Email : Srushti213@gmail.com || Phone : +1 234-567-890</p>
+            <p>Linkdln : linkdln.com/in/srushti || Github : Github.com/srush</p>
+        </section>
+        <section class="objective">
+            <h2>Career Objective</h2>
+            <p>Passionate and detail-oriented react js devoper with 5+ years of experience. </p>
+
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul class="skill-list">
+                <li>Languages : HTML, CSS, Javascript, Python</li>
+                <li>Framework : React js, Node Js, Django</li>
+                <li>Databases : MySql, MangoDB, Oracle</li>
+                <li>Tools     : Git, Docker, AWS</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <h3>Project Management Dashboard</h3>
+                <p>Developed a React-based dashboard for managing task & teams with real time collaboration and management</p>
+            </div>
+            <div class="project-item">
+                <h3>E-commerce Website</h3>
+                <p>Built  a full stack E-commerce site using react js and Django </p>
+            </div>
+
+        </section>
+        <section class="experience">
+            <h2>Professional Experience</h2>
+            <div class="experience-item">
+                <h3>Senior Developer - Opencluster Academy</h3>
+                <p>Jan 2020 - Present</p>
+                <ul>
+                    <li>Led a team of 5 years to deliver scalable saas products</li>
+                    <li>Optimized backend API's, reducing load time by 40%</li>
+                </ul>
+            </div>
+        </section>
+        <section class="experience">
+            <h2>Web Developer - OpenClustere</h2>
+            <p>Aug 2025 - dec 2026</p>
+            <ul>
+                <li>Created responsive website using HTML, CSS, Javascript</li>
+            </ul>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <p>BTech in Computer Science, Dbatu University (2023 - 2026)</p>
+        </section>
+
+
+    </div>
+    
+</body>
+</html>
