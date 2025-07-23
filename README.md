@@ -1,3 +1,4 @@
+<img width="1919" height="846" alt="Screenshot 2024-12-02 113340" src="https://github.com/user-attachments/assets/ef61e3d2-6a04-4dcf-9377-0d6b6b581ce0" />
 # 🌍 Travel Planner Website
 
 A web-based Travel Planner application that helps users plan and organize their trips efficiently. Built using modern web technologies, this project allows users to explore destinations, create itineraries, and manage their travel schedules in one place.
